@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: rgb(89, 134, 192);
+    margin: 0 auto;
+}
+
+li {
+    list-style:none;
+}
+
+.nestJobs{
+    border: solid 1px rgb(9, 88, 190);
+    overflow:hidden;
+    margin: 5px;
+}
+
+.nestJobs > ul {    
+    font-size: 15px;
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, 100px);
+} 
+
+.nestJobs > span {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.nestArea{ 
+    display:block;
+}
+
+.nestId{
+    font-size: 10px;
+    margin: 10px 15px;
+    position:relative;
+}
+
+.nest {
+    font-size: 10px;
+}
+
+.nestPreview {
+    width:50%;
+}
+
+.release {
+    display:block;
+    float:right;
+    margin: 0 5px 5px 0;
+}
+
+.previewIco {
+    float:right;
+    width:32px;
+}
